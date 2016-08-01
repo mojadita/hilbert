@@ -113,7 +113,7 @@ int main(int argc, char **argv)
 
         sscanf(line, "%lg", &r);
         hilbert(r, &x, &y);
-        printf("%0.*lg\t%0.*lg\t%0.*lg\n",
+        printf("%0.*lf\t%0.*lf\t%0.*lf\n",
                 decimals, r, decimals, x, decimals, y);
     }
 #endif
